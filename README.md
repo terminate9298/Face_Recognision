@@ -42,21 +42,37 @@ Face Recognision with VGG and Resnet model by using Transfer learning.
 	* Before starting Make sure the Directories are formed in correct order.
 	* faces Folder have structure 
 	-> faces
+	
 	----> name_1
+	
 	--------> file_of_name_1
+	
 	--------> file_of_name_1
+	
 	--------> file_of_name_1
+	
 	--------> file_of_name_1
+	
 	----> name_2
+	
 	--------> file_of_name_2
+	
 	--------> file_of_name_2
+	
 	--------> file_of_name_2
+	
 	--------> file_of_name_2
+	
 	----> name_3
+	
 	--------> file_of_name_3
+	
 	--------> file_of_name_3
+	
 	--------> file_of_name_3
+	
 	--------> file_of_name_3
+	
 	...
 
 	* Start the training with Command " python model_train.py resnet " or " python model_train.py vgg " to train model with either Resnet50 or VGG16 Model . VGG16 is smaller model and trains faster and requires less RAM Compare to Resnet50 model.
